@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _power - calculate (base and power)
- * @base: base of the exponet
- * @pow: power of the exponet
+ * _power -this will calculate the (base and power)
+ * @base: base of the exp.
+ * @pow: power of the exp.
  * Return: value of base and power
  */
 unsigned long int _power(unsigned int base, unsigned int pow)
