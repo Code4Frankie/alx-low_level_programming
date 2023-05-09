@@ -3,8 +3,8 @@
 #include <stdlib.h>
 
 /**
- * check97 - checks for the correct number of arguments
- * @argc: number of arguments
+ * check97 - confirms the correct num of arguments
+ * @argc: num of arguments
  *
  * Return: void
  */
@@ -18,8 +18,8 @@ void check97(int argc)
 }
 
 /**
- * check98 - checks that file_from exists and can be read
- * @check: checks if true of false
+ * check98 - confirms that file_from exists and can be read
+ * @check: confirms if true of false
  * @file: file_from name
  * @fd_from: file descriptor of file_from, or -1
  * @fd_to: file descriptor of file_to, or -1
@@ -40,8 +40,8 @@ void check98(ssize_t check, char *file, int fd_from, int fd_to)
 }
 
 /**
- * check99 - checks that file_to was created and/or can be written to
- * @check: checks if true of false
+ * check99 - confirms if file_to was created and/or can be written to
+ * @check: confirms if true of false
  * @file: file_to name
  * @fd_from: file descriptor of file_from, or -1
  * @fd_to: file descriptor of file_to, or -1
@@ -62,8 +62,8 @@ void check99(ssize_t check, char *file, int fd_from, int fd_to)
 }
 
 /**
- * check100 - checks that file descriptors were closed properly
- * @check: checks if true or false
+ * check100 - confirms if file descriptors were closed properly
+ * @check: confirms if true or false
  * @fd: file descriptor
  *
  * Return: void
@@ -77,9 +77,9 @@ void check100(int check, int fd)
 	}
 }
 /**
- * main - opies the content of a file to another file.
- * @argc: number of arguments passed
- * @argv: array of pointers to the arguments
+ * main - copies content from file to file
+ * @argc: the num of arguments passed
+ * @argv: the num of pointers to the arguments
  *
  * Return: 0 on success
  */
